@@ -6,3 +6,5 @@ btn.addEventListener("click", () => {
   text.textContent = nameFromPrompt;
   text.style.color = "green"
 });
+
+
