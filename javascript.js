@@ -1,6 +1,6 @@
 const btn = document.getElementById("btn");
 
 btn.addEventListener("click", () => {
-  document.getElementById("text").textContent = "venu gopal"
-  
+  const text = document.getElementById("text");
+  text.textContent = "venu gopal";
 });
