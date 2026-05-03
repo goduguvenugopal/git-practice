@@ -2,5 +2,6 @@ const btn = document.getElementById("btn");
 
 btn.addEventListener("click", () => {
   const text = document.getElementById("text");
-  text.textContent = "venu gopal";
+  const nameFromPrompt = prompt("Enter your name");
+  text.textContent = nameFromPrompt;
 });
